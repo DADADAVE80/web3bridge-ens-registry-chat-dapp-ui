@@ -1,0 +1,83 @@
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  flex-grow: 6;
+  border: 1px solid #d8dbe2;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+}
+
+button {
+  width: 9rem;
+  background: #4e5de4;
+  color: white;
+  font-weight: 500;
+  font-family: "Nunito Sans", sans-serif;
+  text-transform: uppercase;
+  border: solid 1px #4e5de4;
+  border-radius: 0.25rem;
+  padding: 1rem 1.5rem;
+  margin-left: 0.5rem;
+}
+
+button:hover {
+  background: #3442c4;
+  cursor: pointer;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  padding: 1rem 1.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #d8dbe2;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Nunito Sans", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  background: white;
+  color: #4e5de4;
+}
+
+label:hover {
+  background: #d8dbe2;
+  cursor: pointer;
+}
+
+.Container {
+  background: white;
+  border-radius: 1rem;
+  padding: 3rem;
+  box-shadow: 0px 8px 16px rgba(44, 55, 75, 0.16);
+  z-index: 2;
+  margin: 0 2rem;
+  margin-top: -4rem;
+}
+
+.Login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+h1.or-separator {
+  text-align: center;
+  font-weight: 500;
+  font-family: "Nunito Sans", sans-serif;
+  text-transform: uppercase;
+  background: white;
+  color: #4e5de4;
+}
+
+h4 {
+  margin: 0;
+  text-align: center;
+}
